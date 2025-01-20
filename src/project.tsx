@@ -97,6 +97,7 @@ let 我的视频 = makeScene2D('我的视频', function* (view) {
   yield* 小节标题组件(展示区域(), 'https://github.com/lsby/playground-revideo')
   yield* tts(字幕区域(), '具体实现就不说了, 我写了一个脚手架, 并附带了一些简单的例子.')
   yield* tts(字幕区域(), '只要把cosy voice运行起来, 然后启动这个脚手架, 看看代码, 聪明的你应该就会用了.')
+  yield* tts(字幕区域(), '具体的演示可以看2p.')
 
   yield* 清空(展示区域())
   yield* 小节标题组件(展示区域(), 'https://github.com/lsby?tab=repositories&q=video-', 60)
